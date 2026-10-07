@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+# Keep each machine's lock file, firmware, and host configuration locally.
+flake.lock
+hardware-configuration.nix
+configuration.nix
+firmware/
+result
+result-*

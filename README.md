@@ -332,6 +332,13 @@ are other people's work, carried as they are:
 [Gruvbox](https://github.com/morhetz/gruvbox), [Nord](https://www.nordtheme.com)
 and [Rosé Pine](https://rosepinetheme.com).
 
+## Experimental NixOS adapter
+
+This fork contains a [NixOS adapter for the MacBook Air 2019](nix/README.md)
+on the `nixos-mba2019` branch. It packages the shell through Nix instead of
+running the Arch installer. The adapter is under development; its README
+records the validation completed so far and the remaining runtime checks.
+
 ## License
 
 Copyright © 2026 Andreu Massanet — released under the [GNU GPL-3.0](LICENSE).
